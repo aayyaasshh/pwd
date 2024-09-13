@@ -1,0 +1,83 @@
+/* favorite.css */
+
+body {
+    background-color: #FFDBBA;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color:#FFECDC;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.main {
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.favorites {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.favorite-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+}
+
+.favorite-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.favorite-item h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.favorite-item .btnn-back {
+    text-decoration: none;
+    color: #ff6b6b;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 2px solid #ff6b6b;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.favorite-item .btnn-back:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+/* Footer styling, uncomment if needed */
+/*
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+*/
